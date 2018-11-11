@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.FileIO", "Data.FileIO\Data.FileIO.csproj", "{1D224A48-8BF7-4DCA-8BC7-8C160F713FDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.FileIO.Tests", "Data.FileIO.Tests\Data.FileIO.Tests.csproj", "{791368AA-FB1B-41C3-8934-AF9B9EDDD413}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F28157A-DD21-4673-8DEE-964CB19A9483}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		CodeAnalysis.ruleset = CodeAnalysis.ruleset
+		Data.FileIO.png = Data.FileIO.png
+		packages\Faker.1.2\Faker.1.2.nupkg = packages\Faker.1.2\Faker.1.2.nupkg
+		packages\Faker.1.2\lib\Faker.dll = packages\Faker.1.2\lib\Faker.dll
+		TestSettings1.testsettings = TestSettings1.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.DataImport", "Data.DataImport\Data.DataImport.csproj", "{238BA1B4-A6E9-45D7-B12A-3AB68396A7FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.FileIO.DataImport", "Data.FileIO.DataImport\Data.FileIO.DataImport.csproj", "{EA8E7F2C-6D80-4B33-B06D-F92BA635E477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.FileIO.Common", "Data.FileIO.Common\Data.FileIO.Common.csproj", "{92DE3E11-F4B2-4DAB-BB75-26EDB93178A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D224A48-8BF7-4DCA-8BC7-8C160F713FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D224A48-8BF7-4DCA-8BC7-8C160F713FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D224A48-8BF7-4DCA-8BC7-8C160F713FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D224A48-8BF7-4DCA-8BC7-8C160F713FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791368AA-FB1B-41C3-8934-AF9B9EDDD413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791368AA-FB1B-41C3-8934-AF9B9EDDD413}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791368AA-FB1B-41C3-8934-AF9B9EDDD413}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791368AA-FB1B-41C3-8934-AF9B9EDDD413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238BA1B4-A6E9-45D7-B12A-3AB68396A7FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238BA1B4-A6E9-45D7-B12A-3AB68396A7FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238BA1B4-A6E9-45D7-B12A-3AB68396A7FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238BA1B4-A6E9-45D7-B12A-3AB68396A7FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8E7F2C-6D80-4B33-B06D-F92BA635E477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8E7F2C-6D80-4B33-B06D-F92BA635E477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8E7F2C-6D80-4B33-B06D-F92BA635E477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8E7F2C-6D80-4B33-B06D-F92BA635E477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92DE3E11-F4B2-4DAB-BB75-26EDB93178A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DE3E11-F4B2-4DAB-BB75-26EDB93178A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DE3E11-F4B2-4DAB-BB75-26EDB93178A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DE3E11-F4B2-4DAB-BB75-26EDB93178A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B91FD3F1-1BAA-4AE7-9872-69B4C689B5A4}
+	EndGlobalSection
+EndGlobal
